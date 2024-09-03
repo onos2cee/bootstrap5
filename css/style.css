@@ -1,0 +1,17 @@
+body::before{
+    display: block;
+    content:'';
+    height: 72px;
+}
+
+#instructors img{
+    max-width: 125px;
+    background-color: darkgray;
+}
+
+/* Breakpoint for medium */
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
